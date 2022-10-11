@@ -4,16 +4,16 @@ body{
     flex-direction: column;
 }
 
-.container{
-    width: 965px;
-    margin: 0 auto;
-}
-
 header{
     background-image: linear-gradient(0.0deg, #e0e0e0 0%, #ffffff 100%);
     margin-top: 4px;
     border-bottom: 1px solid rgb(210, 206, 206);
     margin-bottom: 42px;
+}
+
+.container{
+    width: 965px;
+    margin: 0 auto;
 }
 
 .main_header{
@@ -29,7 +29,7 @@ header{
 }
 
 .menu_element{
-    width: 110px;
+    width: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,5 +129,88 @@ header{
 
 .gallery_row{
     display: flex;
-    justify-content: 
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.gallery_element{
+    width: 219px;
+    height: 281px;
+    padding: 8px;
+    background-image: linear-gradient(0.0deg, rgba(0,0,0,0.09) 0%, rgba(253,254,255,0.09) 100%);
+    border: 1px solid rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.gallery_image{
+    margin-bottom: -28px;
+}
+
+.img_date{
+    opacity: 0.8;
+    font-family: 'Bebas Neue';
+    font-size: 19px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-left: 9px;
+}
+
+.img_desc{
+    width: 203px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #979393;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    box-sizing: border-box;
+}
+
+.share_group{
+    margin-top: 5px;
+    width: 203px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #9f9898;
+}
+
+.media_icon{
+    width: 22px;
+    height: 22px;
+    background-color: #b1aeae;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+    border-radius: 15px;
+
+}
+
+.footer_main{
+    margin-top: 32px; 
+    margin-bottom: 51px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial;
+    font-size: 17px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #8b8a8a;
 }
