@@ -10,6 +10,7 @@
     .gallery_row{
         width: 500px;
         flex-wrap: wrap;
+        margin-bottom: 0px;
     }
 
     .gallery_element{
@@ -29,6 +30,7 @@
     .gallery_row{
         width: 480px;
         flex-wrap: wrap;
+        margin-bottom: 0px;
     }
 
     .gallery_element{
@@ -38,8 +40,53 @@
 
 
 @media screen and (max-width: 320px){
+    header{
+        margin-bottom: 10px;
+    }
+
     .container{
         width: 300px;
+    }
+
+    .main_header{
+        height: 60px;
+    }
+
+    .logo_img{
+        width: 60%;
+    }
+
+    .menu_small{
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        color: #676666;
+        margin-right: 5px;
+    }
+
+    .menu_element{
+        display: none;
+    }
+
+    .upload_header{
+        font-size: 20px;
+        margin-bottom: 15px;
+        text-align : center;
+    }
+
+    .upload_main{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .upload_button{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .form{
+        margin: 0;
+        width: 280px;
     }
 
     .gallery_main{
@@ -47,10 +94,20 @@
     }
 
     .gallery_row{
+        width: 300px;
+        margin-bottom: 0px;
+        display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .gallery_element{
         margin-bottom: 30px;
+    }
+
+    .footer_main{
+        margin-top: 15px; 
+        margin-bottom: 25px;
+        font-size: 12px;
     }
 } 
