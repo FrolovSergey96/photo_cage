@@ -131,14 +131,10 @@ header{
 }
 
 .gallery_main{
-    display: flex;
-    flex-direction: column;
-}
-
-.gallery_row{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 15px;
 }
 
 .gallery_element{
@@ -212,7 +208,7 @@ header{
 }
 
 .footer_main{
-    margin-top: 32px; 
+    margin-top: 32px;
     margin-bottom: 51px;
     display: flex;
     justify-content: flex-end;

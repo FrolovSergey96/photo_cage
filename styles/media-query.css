@@ -4,17 +4,7 @@
     }
 
     .gallery_main{
-        align-items: center;
-    }
-
-    .gallery_row{
-        width: 500px;
-        flex-wrap: wrap;
-        margin-bottom: 0px;
-    }
-
-    .gallery_element{
-        margin-bottom: 30px;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -24,17 +14,7 @@
     }
 
     .gallery_main{
-        align-items: center;
-    }
-
-    .gallery_row{
-        width: 480px;
-        flex-wrap: wrap;
-        margin-bottom: 0px;
-    }
-
-    .gallery_element{
-        margin-bottom: 30px;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -90,24 +70,12 @@
     }
 
     .gallery_main{
-        align-items: center;
-    }
-
-    .gallery_row{
-        width: 300px;
-        margin-bottom: 0px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .gallery_element{
-        margin-bottom: 30px;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .footer_main{
-        margin-top: 15px; 
+        margin-top: 15px;
         margin-bottom: 25px;
         font-size: 12px;
     }
-} 
+}
